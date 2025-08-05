@@ -11,7 +11,7 @@ const Navbar = () => {
             <span>QNP</span>
           </div>
           <div class="logo-text">
-            <span>Qo'qimboy <br /> Parranda <br /> Naslchilik</span>
+            <span>Ququmboy <br /> Naslchilik <br /> Parranda</span>
           </div>
         </div>
         <ul class="nav-links">
