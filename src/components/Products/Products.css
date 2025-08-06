@@ -1,31 +1,11 @@
-.products-section {
-  position: relative;
-  padding: 50px 0;
-  overflow: hidden;
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.header {
-  text-align: center;
-  position: relative;
-  z-index: 1;
+.prod1 {
+  height: 364px;
+  padding: 100px;
 }
-
-.header > img {
-  width: 1590px;
-}
-
-.products-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  max-width: 900px;
-  margin: 200px auto 0 auto;
-  position: relative;
-  z-index: 1;
-}
-
-.product-card img {
-  width: 100%;
-  border-radius: 10px;
-}
-
