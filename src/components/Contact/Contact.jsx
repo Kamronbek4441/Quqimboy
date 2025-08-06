@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import tuxum from "../../assets/slide1.jpg";
+import tuxum from "../../assets/background.svg";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -43,7 +43,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact" style={{ backgroundImage: `url(${tuxum})` }}>
+    <div className="contact" style={{
+       backgroundImage: `url(${tuxum})`,
+       backgroundPosition: "center",
+       backgroundSize: "cover"
+      //  height: "880px"
+       }}>
       <section className="contact-container">
         <h1 className="contact-title">Biz bilan bog'laning</h1>
 

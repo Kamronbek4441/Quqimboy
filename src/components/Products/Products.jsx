@@ -1,24 +1,42 @@
-import React from 'react'
-import "./Products.css"
+import React from "react";
+import "./Products.css";
+import joja from "../../assets/chip.svg"
+import back from "../../assets/Background.svg"
+import chip from "../../assets/jojachip.svg"
+import broiler from "../../assets/broiler.svg"
+import border from "../../assets/Border.svg"
+import yem from "../../assets/yem.svg"
 
 const Products = () => {
   return (
-     <section id="products" className="products">
-      <h2>Mahsulotlar</h2>
-      <div className="product-list">
-        <div className="product-card">
-          <img src="/images/broiler1.jpg" alt="Broiler 1" />
-          <h3>Broiler Butun (1kg)</h3>
-          <p>Narxi: 30,000 so‘m</p>
+    <section class="products-section">
+      <div class="header">
+        <img src={joja} alt="" />
+      </div>
+
+      <div className="back"  style={{
+        backgroundImage: `url(${back})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover"
+      }}>
+        <div class="products-grid">
+        <div class="product-card">
+          <img src={chip} alt="Chicks in Eggs" />
         </div>
-        <div className="product-card">
-          <img src="/images/broiler2.jpg" alt="Broiler 2" />
-          <h3>Broiler File (1kg)</h3>
-          <p>Narxi: 45,000 so‘m</p>
+        <div class="product-card">
+          <img src={border} alt="Chicks Group" />
+        </div>
+        <div class="product-card">
+          <img src={broiler} alt="Broiler Meat" />
+        </div>
+        <div class="product-card">
+          <img src={yem} alt="Feed Bags" />
         </div>
       </div>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;
