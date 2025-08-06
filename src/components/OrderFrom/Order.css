@@ -1,37 +1,60 @@
+.div {
+  padding: 20px 0 ;
+}
+
+.order-section {
+    background: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.order-title {
+    font-size: 32px;
+    color: #2e7b2f;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
 .order-form {
-  padding: 0px 20px;
-  /* background-color: #f8f8f8; */
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.order-form h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-.order-form form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  max-width: 400px;
-  margin: 0 auto;
-}
+
 .order-form input,
 .order-form select,
 .order-form textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-.order-form button {
-  padding: 12px;
-  background-color: #f15a29;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.order-form button:hover {
-  background-color: #d44917;
+    padding: 15px 20px;
+    border: 2px solid #3b873e;
+    border-radius: 15px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
 }
 
+.order-form input:focus,
+.order-form select:focus,
+.order-form textarea:focus {
+    border-color: #2e7b2f;
+}
+
+.order-form button {
+    padding: 15px;
+    background: linear-gradient(to right, #6bbf59, #3b873e);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.order-form button:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(to right, #5caf4f, #2e6b2c);
+}

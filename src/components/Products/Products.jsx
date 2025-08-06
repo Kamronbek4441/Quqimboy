@@ -9,33 +9,32 @@ import yem from "../../assets/yem.svg";
 
 const Products = () => {
   return (
-    <div className="products">
-      <div className="prod1" style={{
-        backgroundImage: `url(${joja})`,
-        width: "400px",
-      }}>
-        <h1>Bizning Mahsulotlarimiz</h1>      
+    <div>
+      <div className="front">
+        <img src={joja} className="img" alt="" />
       </div>
-      <div className="prod2" style={{
-        backgroundImage: `url(${back})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        backgroundSize: "contain"
-      }}>
-        <div className="pro">
-          <img src={chip} alt="" />
-        </div>
-        <div className="pro">
-          <img src={border} alt="" />
-        </div>
-        <div className="pro">
-          <img src={broiler} alt="" />
-        </div>
-        <div className="pro">
-          <img src={yem} alt="" />
+      <div
+        className="background"
+        style={{
+          backgroundImage: `url(${back})`,
+        }}
+      >
+        <div className="content-grid">
+          <div className="image-box">
+            <img src={chip} alt="Chick Hatching" />
+          </div>
+          <div className="image-box">
+            <img src={border} alt="Many Chicks" />
+          </div>
+          <div className="image-box">
+            <img src={broiler} alt="Raw Chicken" />
+          </div>
+          <div className="image-box">
+            <img src={yem} alt="Feed Bags" />
+          </div>
         </div>
       </div>
-    </div>    
+    </div>
   );
 };
 
