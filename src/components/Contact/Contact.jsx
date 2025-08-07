@@ -55,8 +55,8 @@ const Contact = () => {
         <div className="contact-grid">
           <div className="contact-card">
             <h3>Manzil</h3>
-            <p>Namangan shahri, Oromgoh ko‘chasi, 27-uy</p>
-            <p>Toshkent shahri, Abdulla Qahhor ko‘chasi, 46-uy</p>
+            <p>Namangan viloyati, Kosonsoy tumani</p>
+            <p>Ququmboy qishlog'i Buston M.F.Y</p>
           </div>
           <div className="contact-card">
             <h3>Telefon</h3>
