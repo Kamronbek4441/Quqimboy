@@ -52,7 +52,8 @@ const Order = () => {
         backgroundImage: `url(${back})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        height: "800px",
+        backgroundPosition: "center",
+        height: "800px"
       }}
     >
       <section id="order" className="order-section">
