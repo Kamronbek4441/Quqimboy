@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import tuxum from "../../assets/background.svg";
+import tuxum from "../../assets/Background.svg";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
