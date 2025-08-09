@@ -7,7 +7,6 @@ import juires from "../../assets/juires.svg";
 import can from "../../assets/can.svg";
 import file from "../../assets/file.svg";
 import slide from "../../assets/slide.jpg";
-import ros from "../../assets/ros.jpg";
 import slide1 from "../../assets/slide1.jpg";
 import slide2 from "../../assets/slide2.jpg";
 import slide3 from "../../assets/slide3.jpg";
@@ -15,8 +14,19 @@ import slide4 from "../../assets/slide4.jpg";
 import slide5 from "../../assets/slide5.jpg";
 import slide6 from "../../assets/slide6.jpg";
 import slide7 from "../../assets/slide7.jpg";
+import slide10 from "../../assets/slide10.jpg";
 
-const images = [slide, slide1, ros, slide2, slide3, slide7, slide4, slide5, slide6];
+const images = [
+  slide,
+  slide1,
+  slide2,
+  slide3,
+  slide7,
+  slide4,
+  slide5,
+  slide6,
+  slide10,
+];
 
 function Hero() {
   const [index, setIndex] = useState(0);
@@ -75,10 +85,13 @@ function Hero() {
           <div className="text-box1">
             <p>
               “Ququmboy Naslchilik Parranda” mas’uliyati cheklangan jamiyati
-              parrandachilik sohasida jadal rivojlanayotgan korxona hisoblanadi.
-              Korxonada ROSS-308 nasllik tuxumlari va bir kunlik
-              jo‘jalari, yangi va muzlatilgan broyler go‘shti, parrandachilik
-              uchun ozuqa aralashmalari ishlab chiqariladi.
+              parrandachilik sohasida jadal rivojlanayotgan, zamonaviy
+              texnologiyalar asosida faoliyat yurituvchi yetakchi korxonalardan
+              biridir. Korxonada ROSS-308 nasllik tuxumlari va bir kunlik
+              jo‘jalari, gril uchun go'sht, yangi va muzlatilgan katta broyler
+              go‘shti xamda parrandachilik uchun sifatli ozuqa aralashmalari
+              ishlab chiqariladi. Har bir mahsulotimiz — sog‘lom, toza va sifat
+              kafolati ostida!
             </p>
             <Link className="a" to="/About">
               Batafsil →
@@ -127,17 +140,16 @@ function Hero() {
           <div className="info-block">
             <h2 className="info-title">Inkubatsiya tuxumi «ROSS-308»</h2>
             <p className="info-text">
-              "Ququmboy Naslchilik Parranda" kompaniyasi "ROSS-308" nasllik
-              yuqori sifatli broyler inkubatsiya tuxumlarini yetkazib berishdan
-              mamnun.
+              "Ququmboy Naslchilik Parranda" MCHJ "ROSS-308" nasllik va yuqori
+              sifatli broyler inkubatsiya tuxumlarini yetkazib berishdan mamnun.
             </p>
           </div>
 
           <div className="info-block">
-            <h2 className="info-title">Kunlik Broiler Jo'jalar «ROSS-308»</h2>
+            <h2 className="info-title">Kunlik broyler jo'jalar «ROSS-308»</h2>
             <p className="info-text">
-              Biz omon qolish qobiliyati va ozuqa konvertatsiyasi yuqori bo'lgan
-              bir kunlik broyler tovuqlarini sotamiz.
+              Biz omon qolish qobiliyati (сохранность) va ozuqa konvertatsiyasi
+              yuqori bo'lgan bir kunlik broyler jo'jalarini sotamiz.
             </p>
           </div>
 
@@ -154,9 +166,11 @@ function Hero() {
           <div className="info-block">
             <h2 className="info-title">Parrandalar uchun aralash ozuqa</h2>
             <p className="info-text">
-              Yuqori sifatli, ekologik toza yem. “Ququmboy Naslchilik Parranda” kompaniyasi
-              tomonidan ishlab chiqarilgan granullangan yem ta'minlanadi tez
-              o'sishi, parrandalarning yuqori o'sishi.
+              Yuqori sifatli, ekologik toza yem.
+              “Ququmboy Naslchilik Parranda”
+              MCHJ tomonidan ishlab chiqarilgan granullangan yemlar
+              jo'jalarni tez o'sishi, parrandalarning yuqori sifatda
+              oziqlanishini ta'minlaydi.{" "}
             </p>
           </div>
         </div>
@@ -166,7 +180,6 @@ function Hero() {
 }
 
 export default Hero;
-
 
 // import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";

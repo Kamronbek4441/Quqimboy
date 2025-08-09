@@ -82,9 +82,13 @@ const Order = () => {
             required
           >
             <option value="">Mahsulotni tanlang</option>
-            <option value="Jo'ja go'shti">Jo'ja go'shti</option>
-            <option value="Tovuq go'shti">Tovuq go'shti</option>
-            <option value="Tuxum">Tuxum</option>
+            <option value="Jo'ja go'shti">Sifatli naslli tuxumlar</option>
+            <option value="Tovuq go'shti">Bir kunlik naslli jo'jalar</option>
+            <option value="Tuxum">Gril go'shti</option>
+            <option value="Tuxum">Katta broyler go'shti</option>
+            <option value="Tuxum">START ratsion ozuqa yem</option>
+            <option value="Tuxum">ROST ratsion ozuqa yem</option>
+            <option value="Tuxum">FINISH ratsion ozuqa yem</option>
           </select>
           <textarea
             name="comment"

@@ -5,7 +5,7 @@ import back from "../../assets/Background.svg";
 import chip from "../../assets/jojachip.svg";
 import broiler from "../../assets/broiler.svg";
 import border from "../../assets/Border.svg";
-import yem from "../../assets/yem.svg";
+import yem from "../../assets/yem.png";
 
 const Products = () => {
   return (
@@ -32,6 +32,19 @@ const Products = () => {
           <div className="image-box">
             <img src={yem} alt="Feed Bags" />
           </div>
+        </div>
+        <div class="features-box1">
+          <h3>💡 Nega aynan biz?</h3>
+          <ul>
+            <li>✔ Zamonaviy texnologiyalar asosida ishlab chiqarish.</li>
+            <li>✔ Yevropa standartlariga mos sifat nazorati.</li>
+            <li>✔ Har bir mahsulot — tabiiy va xavfsiz.</li>
+            <li>✔ ENG ASOSIYSI HALOL MAHSULOTLAR.</li>
+            <li>
+            📍 "Ququmboy Naslchilik Parranda" MCHJ — Sizning sifatli parranda
+              mahsulotlari bo‘yicha ishonchli hamkoringiz!
+            </li>
+          </ul>
         </div>
       </div>
     </div>

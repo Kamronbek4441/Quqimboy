@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .decor-items {
@@ -58,7 +59,7 @@
     grid-template-rows: repeat(2, 300px);
     gap: 20px;
     /* background: rgba(255, 255, 255, 0.8); */
-    padding: 120px;
+    padding: 20px;
     border-radius: 10px;
     z-index: 2;
 }
@@ -69,4 +70,30 @@
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.features-box1 {
+  flex: 2;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.features-box1 h3 {
+    font-size: 38px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+.features-box1 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.features-box1 li {
+  margin-bottom: 8px;
+  font-size: 16px;
 }
