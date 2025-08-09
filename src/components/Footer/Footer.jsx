@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <footer class="footer">
         <p>
-          &copy; 2025 Qo‘qimboy Parranda Naslchilik. Barcha huquqlar
+          &copy; 2025 Ququmboy Parranda Naslchilik. Barcha huquqlar
           himoyalangan.
         </p>
       </footer>
