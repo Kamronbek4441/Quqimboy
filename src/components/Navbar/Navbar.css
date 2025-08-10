@@ -26,7 +26,8 @@ body {
 }
 
 .logo-circle {
-  background: #F3B902;
+  /* background: #F3B902; */
+    background: linear-gradient(to bottom, #6bbf59, #3b873e);
   color: white;
   padding: 55px 45px;
   border-top-right-radius: 50px;
@@ -50,8 +51,8 @@ body {
   font-size: 28px;
   font-weight: bold;
   margin-left: 15px;
-  /* color: #2e7b2f; */
-  color: #F3B902;
+  color: #2e7b2f;
+  /* color: #F3B902; */
 }
 
 .nav-links {
@@ -80,8 +81,9 @@ body {
 
 .n1 {
   display: inline-block;
-  /* background: linear-gradient(to bottom, #6bbf59, #3b873e); */
-  background: #e5d6bd;
+  background: linear-gradient(to bottom, #6bbf59, #3b873e); 
+  /* background: #e5d6bd; */
+  background-color: #844C34;
   color: white;
   text-decoration: none;
   /* padding: 20px 35px;
@@ -100,9 +102,8 @@ body {
 
 .n2 {
   display: inline-block;
-  /* background: linear-gradient(to bottom, #6bbf59, #3b873e); */
-  background-color: #F4CA21;
-  background: #e5d6bd;
+  background: linear-gradient(to bottom, #6bbf59, #3b873e);
+  /* background: #E0D7C8; */
   color: white;
   text-decoration: none;
  padding: 20px 35px;
@@ -120,9 +121,9 @@ body {
 
 .n3 {
   display: inline-block;
-  /* background: linear-gradient(to bottom, #6bbf59, #3b873e); */
+  background: linear-gradient(to bottom, #6bbf59, #3b873e);
   /* background-color: #F0EBD7; */
-  background: #e5d6bd;
+  /* background: #e5d6bd; */
   color: white;
   text-decoration: none;
   /* padding: 20px 35px;
@@ -141,8 +142,8 @@ body {
 
 .n4 {
   display: inline-block;
-  /* background: linear-gradient(to bottom, #6bbf59, #3b873e); */
-    background: #e5d6bd;
+  background: linear-gradient(to bottom, #6bbf59, #3b873e);
+    /* background: #e5d6bd; */
   color: white;
   text-decoration: none;
   /* padding: 20px 35px;
@@ -161,8 +162,8 @@ body {
 
 .n5 {
   display: inline-block;
-  /* background: linear-gradient(to bottom, #6bbf59, #3b873e); */
-  background: #e5d6bd;
+  background: linear-gradient(to bottom, #6bbf59, #3b873e);
+  /* background: #e5d6bd; */
   color: white;
   text-decoration: none;
   /* padding: 20px 35px;
@@ -195,23 +196,39 @@ body {
 .bar.open:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
 .bar.open:nth-child(2) { opacity: 0; }
 .bar.open:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
     z-index: 11;
   }
 
+  /* Tuxum shaklini olib tashlab, oddiy matnli menyu */
+  .nav-links li a {
+    display: block;
+    background: none;
+    color: #3b873e;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: auto; /* kengligi matnga moslashadi */
+    white-space: nowrap; /* matn bo‘linib ketmasligi uchun */
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+
   .nav-links {
     position: fixed;
     top: 43%; /* markazdan teparoq */
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -50%) scale(0.9);
     flex-direction: column;
     background: linear-gradient(145deg, #ffffff, #f2f2f2);
     width: 80%;
     padding: 25px 0;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     display: none;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -223,24 +240,12 @@ body {
     display: flex;
   }
 
-  .nav-links li a {
-    background: none;
-    color: #3b873e;
-    font-size: 20px;
-    padding: 10px 0;
-    border-radius: 10px;
-    text-align: center;
-    width: 70%;
-    text-align: center;
-    font-weight: 500;
-    transition: background 0.3s ease, transform 0.2s ease;
-  }
-
   .nav-links li a:hover {
     background: rgba(107, 191, 89, 0.12);
     transform: scale(1.07);
   }
 
+  /* Popup animatsiyasi */
   @keyframes popup {
     from {
       opacity: 0;
@@ -250,5 +255,14 @@ body {
       opacity: 1;
       transform: translate(-50%, -50%) scale(1);
     }
+  }
+
+  /* Tuxum shaklini telefon uchun olib tashlash */
+  .n1, .n2, .n3, .n4, .n5 {
+    background: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    font-size: 18px !important;
+    color: #3b873e !important;
   }
 }

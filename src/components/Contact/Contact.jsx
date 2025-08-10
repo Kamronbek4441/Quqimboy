@@ -55,17 +55,23 @@ const Contact = () => {
         <div className="contact-grid">
           <div className="contact-card">
             <h3>Manzil</h3>
-            <p>Namangan viloyati, Kosonsoy tumani</p>
+            <p>Namangan viloyati,</p>
+            <p> Kosonsoy tumani</p>
             <p>Ququmboy qishlog'i Buston M.F.Y</p>
           </div>
           <div className="contact-card">
             <h3>Telefon</h3>
-            <a href="tel:+998953070020">+998 95 307 00 20</a><br />
+            <a style={{
+              marginBottom: "34px",
+              marginTop: "12px"
+            }} href="tel:+998953070020">+998 95 307 00 20</a>
             <a href="tel:+998941565656">+998 94 156 56 56</a>
           </div>
           <div className="contact-card">
             <h3>Email</h3>
-            <a href="mailto:info@Qo'qimboyParranda.uz">info@QuqumboyParranda.uz</a>
+            <a style={{
+              marginTop: "9px"
+            }} href="mailto:info@Qo'qimboyParranda.uz">info@QuqumboyParranda.uz</a>
           </div>
         </div>
 

@@ -38,7 +38,7 @@ const Hamkorlar = ({partners}) => {
     }}>
       <div className="partners-header">
         <div>
-          <h2>Hamkorlar</h2>
+          <h1>Hamkorlar</h1>
           <p>Biz bilan hamkorlik qilayotgan kompaniyalar</p>
         </div>
       </div>

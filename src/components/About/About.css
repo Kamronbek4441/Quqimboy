@@ -33,7 +33,7 @@ body {
 .text-box {
   flex: 2;
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
 }
 
@@ -42,8 +42,9 @@ body {
   padding: 10px;
 }
 
-.features-box h3 {
+.features-box h2 {
   margin-bottom: 10px;
+  /* font-weight: lighter; */
 }
 
 .features-box ul {
@@ -53,5 +54,5 @@ body {
 
 .features-box li {
   margin-bottom: 8px;
-  font-size: 16px;
+  font-size: 18px;
 }

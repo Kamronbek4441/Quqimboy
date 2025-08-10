@@ -32,7 +32,7 @@ const About = () => {
 
       <div class="bottom-section">
         <div class="features-box">
-          <h3>ROSS-308 naslning asosiy xususiyatlari:</h3>
+          <h2>ROSS-308 naslning asosiy xususiyatlari:</h2>
           <ul>
             <li>✔ So'yish uchun mukammal shakl.</li>
             <li>✔ Kuchli tana vazni.</li>

@@ -5,7 +5,7 @@ import tuxum from "../../assets/tuxum.svg";
 import phoneIcon from "../../assets/telephone.png";
 import juires from "../../assets/juires.svg";
 import can from "../../assets/can.svg";
-import file from "../../assets/file.svg";
+import file from "../../assets/file.svg"
 import slide from "../../assets/slide.jpg";
 import slide1 from "../../assets/slide1.jpg";
 import slide2 from "../../assets/slide2.jpg";
@@ -14,16 +14,18 @@ import slide4 from "../../assets/slide4.jpg";
 import slide5 from "../../assets/slide5.jpg";
 import slide7 from "../../assets/slide7.jpg";
 import slide10 from "../../assets/slide10.jpg";
+import file10 from "../../assets/file10.png";
 
 const images = [
   slide,
-  slide1,
   slide2,
+  slide4,
+  slide1,
   slide3,
   slide7,
-  slide4,
-  slide5,
   slide10,
+  slide5,
+  file10
 ];
 
 function Hero() {

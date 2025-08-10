@@ -14,8 +14,8 @@
   flex-wrap: wrap;
 }
 
-.partners-header h2 {
-  font-size: 2rem;
+.partners-header h1 {
+  font-size: 4rem;
   font-weight: 800;
   color: #1e293b;
   margin: 0;
@@ -23,8 +23,9 @@
 }
 
 .partners-header p {
-  font-size: 1rem;
-  color: #64748b;
+  font-size: 1.5rem;
+  /* color: #64748b; */
+  color: #444;
   margin-top: 0.3rem;
 }
 
@@ -91,7 +92,7 @@
 }
 
 .partner-card:hover img {
-  filter: grayscale(0%) contrast(1);
+  filter: grayscale(0%) contrast(5);
 }
 
 .partners-footer {
@@ -115,6 +116,48 @@
   transform: translateY(-2px);
   opacity: 0.95;
 }
+
+/* Telefon va kichik ekranlar uchun */
+@media (max-width: 768px) {
+  .partners-section {
+    height: auto; /* Balandlikni avtomatik */
+    padding: 2rem 1rem;
+  }
+
+  .partners-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 0.5rem;
+  }
+
+  .partners-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .partners-header p {
+    font-size: 0.9rem;
+  }
+
+  .partners-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+  }
+
+  .partner-card {
+    padding: 0.8rem;
+  }
+
+  .partner-card img {
+    max-height: 40px; /* Logolar kichrayadi */
+  }
+}
+
 
 
 /* .partners-section {
