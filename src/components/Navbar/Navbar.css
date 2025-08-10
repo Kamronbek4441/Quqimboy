@@ -101,12 +101,11 @@ body {
 .n2 {
   display: inline-block;
   /* background: linear-gradient(to bottom, #6bbf59, #3b873e); */
-  /* background-color: #F4CA21; */
+  background-color: #F4CA21;
   background: #e5d6bd;
   color: white;
   text-decoration: none;
-  /* padding: 20px 35px;
-    border-radius: 70% / 50%; */
+ padding: 20px 35px;
   padding: 55px 11px;
   border-top-right-radius: 50px;
   border-top-left-radius: 90px;
@@ -180,48 +179,76 @@ body {
   z-index: 10;
 }
 
+/* Hamburger menyu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+.bar {
+  width: 30px;
+  height: 4px;
+  background: #3b873e;
+  transition: 0.3s;
+}
+.bar.open:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.bar.open:nth-child(2) { opacity: 0; }
+.bar.open:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-  }
-
-  .logo {
-    flex-direction: column;
-    align-items: center;
-    margin-right: 0;
-  }
-
-  .logo-text {
-    text-align: center;
-    font-size: 22px;
+  .hamburger {
+    display: flex;
+    z-index: 11;
   }
 
   .nav-links {
+    position: fixed;
+    top: 43%; /* markazdan teparoq */
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
     flex-direction: column;
-    gap: 15px;
+    background: linear-gradient(145deg, #ffffff, #f2f2f2);
+    width: 80%;
+    padding: 25px 0;
     align-items: center;
+    gap: 20px;
+    display: none;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    animation: popup 0.3s ease forwards;
+    z-index: 10;
+  }
+
+  .nav-links.active {
+    display: flex;
   }
 
   .nav-links li a {
-    padding: 20px 25px !important;
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 480px) {
-  .logo-circle {
-    padding: 35px 28px;
-    font-size: 16px;
-  }
-
-  .logo-text {
-    font-size: 18px;
+    background: none;
+    color: #3b873e;
+    font-size: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+    text-align: center;
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.2s ease;
   }
 
-  .nav-links li a {
-    padding: 15px 20px !important;
-    font-size: 16px;
+  .nav-links li a:hover {
+    background: rgba(107, 191, 89, 0.12);
+    transform: scale(1.07);
+  }
+
+  @keyframes popup {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
   }
 }
