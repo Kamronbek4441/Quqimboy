@@ -84,11 +84,11 @@ const Order = () => {
             <option value="">Mahsulotni tanlang</option>
             <option value="Jo'ja go'shti">Sifatli naslli tuxumlar</option>
             <option value="Tovuq go'shti">Bir kunlik naslli jo'jalar</option>
-            <option value="Tuxum">Gril go'shti</option>
-            <option value="Tuxum">Katta broyler go'shti</option>
-            <option value="Tuxum">START ratsion ozuqa yem</option>
-            <option value="Tuxum">ROST ratsion ozuqa yem</option>
-            <option value="Tuxum">FINISH ratsion ozuqa yem</option>
+            <option value="Gril go'shti">Gril go'shti</option>
+            <option value="Katta broyler go'shti">Katta broyler go'shti</option>
+            <option value="START ratsion ozuqa yem">START ratsion ozuqa yem</option>
+            <option value="ROST ratsion ozuqa yem">ROST ratsion ozuqa yem</option>
+            <option value="FINISH ratsion ozuqa yem">FINISH ratsion ozuqa yem</option>
           </select>
           <textarea
             name="comment"
