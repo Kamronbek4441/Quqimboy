@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact.jsx"
 import Hero from "./components/HeroSection/Hero.jsx"
 import Order from "./components/OrderFrom/Order.jsx"
 import Products from "./components/Products/Products.jsx"
+import Hamkorlar from "./components/Hamkorlar/Hamkorlar.jsx";
 import Footer from "./components/Footer/Footer.jsx"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Order" element={<Order />} />
         <Route path="/Products" element={<Products />} />
+        <Route path="/Hamkorlar" element={<Hamkorlar />} />
       </Routes>
       <Footer/>
     </>

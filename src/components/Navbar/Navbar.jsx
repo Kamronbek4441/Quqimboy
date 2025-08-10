@@ -25,6 +25,9 @@ const Navbar = () => {
             <Link className="n3" to="/About">Biz Haqimizda</Link>
           </li>
           <li>
+            <Link className="n3" to="/Hamkorlar">Hamkorlarimiz</Link>
+          </li>
+          <li>
             <Link className="n4" to="/Order">Buyurtma</Link>
           </li>
           <li>
