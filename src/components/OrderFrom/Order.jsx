@@ -27,7 +27,7 @@ const Order = () => {
     `;
 
     const botToken = "7740724554:AAGQdqMs7sd3bnSACV_iJc2k5h8NxlaP2tA";
-    const chatId = "5764570183";
+    const chatId = "-1002804364919";
 
     const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
