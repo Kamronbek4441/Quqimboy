@@ -53,7 +53,8 @@ const Order = () => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        height: "800px"
+        // height: "800px"
+         minHeight: "68vh"
       }}
     >
       <section id="order" className="order-section">

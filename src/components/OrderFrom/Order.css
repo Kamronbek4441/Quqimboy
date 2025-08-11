@@ -1,5 +1,5 @@
 .div {
-  padding: 20px 0 ;
+  padding: 40px 0 ;
 }
 
 .order-section {
@@ -57,4 +57,127 @@
 .order-form button:hover {
     transform: translateY(-3px);
     background: linear-gradient(to right, #5caf4f, #2e6b2c);
+}
+
+
+/* ====== RESPONSIVE DESIGN ====== */
+
+/* Planshet va kichik noutbuklar (max 1024px) */
+@media (max-width: 1024px) {
+  .order-section {
+    padding: 40px 15px;
+    width: 95%;
+  }
+
+  .order-title {
+    font-size: 28px;
+  }
+
+  .order-form input,
+  .order-form select,
+  .order-form textarea {
+    font-size: 15px;
+    padding: 13px 18px;
+  }
+
+  .order-form button {
+    font-size: 17px;
+    padding: 14px;
+  }
+}
+
+/* Katta telefonlar va kichik planshetlar (max 768px) */
+@media (max-width: 768px) {
+  .div {
+    padding: 20px 0;
+    background-position: center;
+    height: auto; /* Telefon uchun balandlik avtomatik */
+  }
+
+  .order-section {
+    margin: 30px auto;
+    padding: 35px 15px;
+    border-radius: 15px;
+  }
+
+  .order-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .order-form {
+    gap: 15px;
+  }
+
+  .order-form input,
+  .order-form select,
+  .order-form textarea {
+    font-size: 14px;
+    padding: 12px 15px;
+    border-radius: 12px;
+  }
+
+  .order-form button {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+/* Oddiy telefonlar (max 480px) */
+@media (max-width: 480px) {
+  .div {
+    padding: 15px 0;
+  }
+
+  .order-section {
+    padding: 25px 10px;
+    margin: 20px auto;
+    width: 95%;
+  }
+
+  .order-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .order-form {
+    gap: 12px;
+  }
+
+  .order-form input,
+  .order-form select,
+  .order-form textarea {
+    font-size: 13px;
+    padding: 10px 12px;
+    border-radius: 10px;
+  }
+
+  .order-form textarea {
+    min-height: 80px;
+  }
+
+  .order-form button {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+/* Juda kichik ekranlar (max 360px) */
+@media (max-width: 360px) {
+  .order-title {
+    font-size: 18px;
+  }
+
+  .order-form input,
+  .order-form select,
+  .order-form textarea {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .order-form button {
+    font-size: 14px;
+    padding: 8px;
+  }
 }
