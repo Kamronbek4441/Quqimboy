@@ -268,6 +268,17 @@
   animation: floatUpDown 3s ease-in-out infinite;
 }
 
+.info-container {
+  padding: 20px 240px;
+  height: 680px;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
 /* Tepa-past harakat */
 @keyframes floatUpDown {
   0% {
@@ -281,53 +292,156 @@
   }
 }
 
-/* Responsiv */
-@media (max-width: 768px) {
-  .chick-section {
-    flex-direction: column;
-    text-align: center;
-    padding: 30px 5%;
-  }
-
-  .image-box {
-    margin-top: 30px;
-  }
-
-  .image-box img {
-    width: 200px;
-  }
-}
-/* ----------------------------------------------------------------------- */
-
-.background-wrapper {
+.product-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
   color: white;
-  padding: 2rem;
+  min-height: 500px;
 }
 
-.info-container {
-  display: flex;
-  /* align-items: ; */
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 40px 100px;
-}
-
-.info-block {
+.product-item {
   width: 45%;
-  padding-top: 40px;
-  margin-bottom: 2rem;
 }
 
-.info-title {
+.product-item h2 {
   font-size: 24px;
+  font-weight: bolder;
   margin-bottom: 10px;
 }
 
-.info-text {
+.product-item p {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+/* Telefon versiya */
+@media (max-width: 768px) {
+  .product-section {
+    flex-direction: column;
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .product-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .product-item h2 {
+    font-size: 20px;
+  }
+
+  .product-item p {
+    font-size: 16px;
+  }
+}
+
+
+/* 📱 Telefon (600px dan kichik) */
+@media (max-width: 600px) {
+  /* Slider rasmlari */
+  .slide-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* Tugmalar yashirish */
+  .nav-btn {
+    display: none;
+  }
+
+  /* Telefon raqamlar ustma-ust */
+  .top-contacts {
+    /* flex-direction: column; */
+    gap: 20px;
+  }
+
+  .top-contacts > .phone > span {
+    font-size: 17px;
+  }
+
+  .phone {
+    font-size: 20px;
+  }
+
+  .phone img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* 1-bo‘lim tartibi */
+  .content1 {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .text-box1 {
+    max-width: 100%;
+    font-size: 18px;
+  }
+
+  .image-box1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* 2-bo‘lim */
+  .chick-section2 {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .image-box2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Oxirgi bo‘lim info bloklari ustma-ust */
+  .info-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .info-block {
+    max-width: 100%;
+  }
+}
+
+/* 📲 Planshet (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .slide-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .phone {
+    font-size: 28px;
+  }
+
+  .phone img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .content1 {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .text-box1 {
+    font-size: 17px;
+  }
+
+  .image-box2 img {
+    width: 400px;
+  }
 }

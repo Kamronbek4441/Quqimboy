@@ -131,6 +131,45 @@ function Hero() {
       </div>
 
       <div
+      className="product-section"
+      style={{
+        backgroundImage: `url(${file})`,
+        height: "600px"
+      }}
+    >
+      <div className="product-item left">
+        <h2>Inkubatsiya tuxumi «ROSS-308»</h2>
+        <p>
+          "Ququmboy Naslchilik Parranda" MCHJ "ROSS-308" nasllik va yuqori
+              sifatli broyler inkubatsiya tuxumlarini yetkazib berishdan mamnun.
+        </p>
+
+        <h2>Kunlik broyler jo'jalar «ROSS-308»</h2>
+        <p>
+          Biz omon qolish qobiliyati (сохранность) va ozuqa konvertatsiyasi
+              yuqori bo'lgan bir kunlik broyler jo'jalarini sotamiz.
+        </p>
+      </div>
+
+      <div className="product-item right">
+        <h2>Yangi va muzlatilgan go'shtli broyler</h2>
+        <p>
+          Yangi va muzlatilgan broyler go‘shti yuqori “A” toifali sifatga
+              ega bo‘lib, 100 foiz mahalliy mahsulot hisoblanadi.
+        </p>
+
+        <h2>Parrandalar uchun aralash ozuqa</h2>
+        <p>
+          Yuqori sifatli, ekologik toza yem.
+              “Ququmboy Naslchilik Parranda”
+              MCHJ tomonidan ishlab chiqarilgan granullangan yemlar
+              jo'jalarni tez o'sishi, parrandalarning yuqori sifatda
+              oziqlanishini ta'minlaydi.
+        </p>
+      </div>
+    </div>
+
+      {/* <div
         className="background-wrapper"
         style={{
           backgroundImage: `url(${file})`,
@@ -174,7 +213,7 @@ function Hero() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
