@@ -66,6 +66,10 @@
 }
 /* Telefon va kichik ekranlar uchun */
 @media (max-width: 768px) {
+  .partners-section {
+    padding-bottom: 90px;
+  }
+
   .overlay {
     text-align: left;
     padding: 0 10px;
