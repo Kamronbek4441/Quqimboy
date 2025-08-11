@@ -295,7 +295,7 @@
 .product-section {
   display: flex;
   justify-content: space-evenly;
-  padding: 60px;
+  padding: 120px 60px 60px;
   background-size: cover;
   background-position: center;
   color: white;
@@ -322,14 +322,14 @@
 @media (max-width: 768px) {
   .product-section {
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .product-item {
     width: 100%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   .product-item h2 {
@@ -363,7 +363,7 @@
   }
 
   .top-contacts > .phone > span {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .phone {
@@ -397,6 +397,7 @@
     flex-direction: column;
     text-align: center;
     padding: 20px;
+    gap: 20px;
   }
 
   .image-box2 img {
