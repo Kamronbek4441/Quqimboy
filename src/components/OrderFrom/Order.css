@@ -59,6 +59,45 @@
     background: linear-gradient(to right, #5caf4f, #2e6b2c);
 }
 
+/* Toast xabar */
+.toast {
+  position: fixed;
+  top: -60px; /* boshlang'ich holat */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2ecc71;
+  color: white;
+  padding: 35px 45px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+  animation: slideDown 0.5s ease forwards,
+             stay 3s ease forwards,
+             slideUp 0.5s ease forwards;
+  animation-delay: 0s, 0.5s, 3.5s; /* kirish, turish, chiqish vaqtlarini boshqarish */
+}
+
+/* Tepadagi animatsiya */
+@keyframes slideDown {
+  to {
+    top: 20px;
+  }
+}
+
+/* Joyida turish (hech narsa o'zgarmaydi) */
+@keyframes stay {
+  from { top: 20px; }
+  to { top: 20px; }
+}
+
+/* Tepaga chiqib ketish animatsiyasi */
+@keyframes slideUp {
+  from { top: 20px; opacity: 1; }
+  to { top: -60px; opacity: 0; }
+}
+
 
 /* ====== RESPONSIVE DESIGN ====== */
 
