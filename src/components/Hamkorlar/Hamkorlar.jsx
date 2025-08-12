@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./Hamkorlar.css";
 import hamkor from "../../assets/hamkorlar1.png";
 import big from "../../assets/big.svg"
+import jamesway from "../../assets/jamesway.png"
 
 const Hamkorlar = () => {
   useEffect(() => {
@@ -40,7 +41,7 @@ const Hamkorlar = () => {
           <div className="partner-card">
             <a href="https://jamesway.com/">
               <img className="img"
-              src="https://jamesway.com/storage/2022/12/Logo.png"
+              src={jamesway}
               alt="Jamesway"
             />
             </a>
