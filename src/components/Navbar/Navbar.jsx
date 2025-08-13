@@ -66,13 +66,13 @@ const Navbar = () => {
           </li>
 
           {/* Til tanlash select */}
-          <li className="lang-select">
+          <div className="lang-select">
             <select onChange={(e) => changeLanguage(e.target.value)}>
               <option value="uz">UZ</option>
               <option value="ru">RU</option>
               <option value="en">EN</option>
             </select>
-          </li>
+          </div>
         </ul>
       </nav>
     </div>
