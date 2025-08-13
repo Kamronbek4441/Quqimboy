@@ -7,7 +7,11 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: "uz",
+    lng:'uz',
     debug: false,
+    interpolation: {
+      escapeValue: false,
+    },
     resources: {
       uz: {
         translation: {
