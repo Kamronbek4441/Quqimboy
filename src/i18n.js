@@ -102,9 +102,8 @@ i18n
             prod4Title: "Parrandalar uchun aralash ozuqa",
             prod4Text:
               "Yuqori sifatli, ekologik toza yem. “Ququmboy Naslchilik Parranda” MCHJ tomonidan ishlab chiqarilgan granullangan yemlar jo'jalarni tez o'sishi, parrandalarning yuqori sifatda oziqlanishini ta'minlaydi.",
-            footerText:
-              "© 2025 Qo‘qumboy Naslchilik Parranda. Barcha huquqlar himoyalangan.",
           },
+          rightsReserved: "Barcha huquqlar himoyalangan.",
         },
       },
       ru: {
@@ -199,6 +198,7 @@ i18n
             footerText:
               "© 2025 Кукумбой Насльчилик Парранда. Все права защищены.",
           },
+          rightsReserved: "Все права защищены.",
         },
       },
       en: {
@@ -293,6 +293,7 @@ i18n
             footerText:
               "© 2025 Qoqumboy Poultry Breeding. All rights reserved.",
           },
+          rightsReserved: "All rights reserved.",
         },
       },
     },
