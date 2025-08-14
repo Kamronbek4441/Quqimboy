@@ -149,7 +149,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 130px;
+  min-width: 110px;
 }
 
 .n4 {
@@ -234,10 +234,6 @@ body {
 .lang-buttons button:hover {
   background: #2ecc71;
   color: white;
-}
-
-.lang-select {
-  padding-top: 45px;
 }
 
 .lang-select select {
