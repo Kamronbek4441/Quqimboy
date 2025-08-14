@@ -8,7 +8,7 @@ import phoneIcon from "../../assets/telephone.png";
 import juires from "../../assets/juires.svg";
 import can from "../../assets/can.svg";
 import file from "../../assets/file.svg";
-import slide from "../../assets/slide.jpg";
+import slide from "../../assets/slideimg.jpg";
 import slide1 from "../../assets/slide1.jpg";
 import slide2 from "../../assets/slide2.jpg";
 import slide3 from "../../assets/slide3.jpg";
