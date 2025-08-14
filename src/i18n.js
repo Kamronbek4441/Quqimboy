@@ -7,7 +7,7 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: "uz",
-    lng:'uz',
+    lng: "uz",
     debug: false,
     interpolation: {
       escapeValue: false,
@@ -102,6 +102,8 @@ i18n
             prod4Title: "Parrandalar uchun aralash ozuqa",
             prod4Text:
               "Yuqori sifatli, ekologik toza yem. “Ququmboy Naslchilik Parranda” MCHJ tomonidan ishlab chiqarilgan granullangan yemlar jo'jalarni tez o'sishi, parrandalarning yuqori sifatda oziqlanishini ta'minlaydi.",
+            footerText:
+              "© 2025 Qo‘qumboy Naslchilik Parranda. Barcha huquqlar himoyalangan.",
           },
         },
       },
@@ -149,7 +151,7 @@ i18n
           whyUs3: "Каждый продукт — натуральный и безопасный.",
           whyUs4: "САМОЕ ГЛАВНОЕ — ХАЛЯЛЬНАЯ ПРОДУКЦИЯ.",
           whyUs5:
-            '"Кукумбой Наслчилик Парранда" ООО — Ваш надежный партнер по качественной продукции из птицы!',
+            '"Ququmboy Naslchilik Parranda" ООО — Ваш надежный партнер по качественной продукции из птицы!',
           partnersTitle: "Партнёры",
           partnersSubtitle: "Компании, которые сотрудничают с нами",
           orderTitle: "Сделать заказ",
@@ -177,7 +179,7 @@ i18n
           more: "Подробнее",
           hero: {
             aboutText:
-              "ООО «Кукумбой Насльчик Парранда» — одно из ведущих, быстро развивающихся предприятий в сфере птицеводства, работающих на основе современных технологий. На предприятии производятся инкубационные яйца породы ROSS-308, суточные цыплята, мясо гриль, свежее и замороженное мясо крупных бройлеров, а также качественные комбикорма для птицеводства. Каждый наш продукт — это здоровье, чистота и гарантия качества!",
+              "ООО «Ququmboy Naslchilik Parranda» — одно из ведущих, быстро развивающихся предприятий в сфере птицеводства, работающих на основе современных технологий. На предприятии производятся инкубационные яйца породы ROSS-308, суточные цыплята, мясо гриль, свежее и замороженное мясо крупных бройлеров, а также качественные комбикорма для птицеводства. Каждый наш продукт — это здоровье, чистота и гарантия качества!",
             chickText1:
               "Современные технологии выращивания кур постоянно развиваются. Они предназначены для обеспечения мирового рынка качественными, относительно недорогими и полезными продуктами.",
             chickText2:
@@ -194,6 +196,8 @@ i18n
             prod4Title: "Комбикорм для птиц",
             prod4Text:
               "Высококачественный, экологически чистый корм. Гранулированные корма, произведенные ООО «Кукумбой Насльчик Парранда», обеспечивают быстрый рост цыплят и качественное питание птицы.",
+            footerText:
+              "© 2025 Кукумбой Насльчилик Парранда. Все права защищены.",
           },
         },
       },
@@ -286,6 +290,8 @@ i18n
             prod4Title: "Poultry feed mix",
             prod4Text:
               "High-quality, eco-friendly feed. The granulated feed produced by Ququmboy Naslchilik Parranda LLC ensures rapid chick growth and quality poultry nutrition.",
+            footerText:
+              "© 2025 Qoqumboy Poultry Breeding. All rights reserved.",
           },
         },
       },
