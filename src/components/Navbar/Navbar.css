@@ -15,7 +15,7 @@ body {
 .navbar {
   display: flex;
   align-items: center;
-  padding: 6px 50px 8px;
+  padding: 10px 50px 20px;
   background-color: #fff;
   position: relative;
   z-index: 999;
@@ -68,7 +68,7 @@ body {
 }
 
 .nav-links li a:hover {
-  animation: jumpInfinite 3.8s ease-in-out infinite;
+  animation: jumpInfinite 1.8s ease-in-out infinite;
 }
 
 @keyframes jumpInfinite {
@@ -76,7 +76,7 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(40px);
+    transform: translateY(20px);
   }
   100% {
     transform: translateY(0);
