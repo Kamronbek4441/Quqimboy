@@ -19,7 +19,7 @@ body {
   background-color: #fff;
   position: relative;
   z-index: 999;
-  gap: 60px;
+  gap: 40px;
 }
 
 .logo {
@@ -32,7 +32,7 @@ body {
   /* background: #F3B902; */
     background: linear-gradient(to bottom, #6bbf59, #3b873e);
   color: white;
-  padding: 55px 45px;
+  padding: 45px 35px;
   border-top-right-radius: 50px;
   border-top-left-radius: 90px;
   border-bottom-left-radius: 50px;
@@ -51,7 +51,7 @@ body {
 
 .logo-text {
   font-family: "Georgia", serif;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
   margin-left: 15px;
   color: #2e7b2f;
@@ -91,7 +91,7 @@ body {
   text-decoration: none;
   /* padding: 20px 35px;
     border-radius: 70% / 50%; */
-  padding: 55px 8px;
+  padding: 50px 4px;
   border-top-right-radius: 50px;
   border-top-left-radius: 90px;
   border-bottom-left-radius: 50px;
@@ -104,7 +104,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 130px;
+  min-width: 120px;
 }
 
 .n2 {
@@ -113,8 +113,8 @@ body {
   /* background: #E0D7C8; */
   color: white;
   text-decoration: none;
- padding: 20px 35px;
-  padding: 55px 11px;
+  /* padding: 20px 35px; */
+  padding: 50px 6px;
   border-top-right-radius: 50px;
   border-top-left-radius: 90px;
   border-bottom-left-radius: 50px;
@@ -127,7 +127,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 130px;
+  min-width: 120px;
 }
 
 .n3 {
@@ -139,20 +139,20 @@ body {
   text-decoration: none;
   /* padding: 20px 35px;
     border-radius: 70% / 50%; */
-  padding: 55px 1px;
+  padding: 50px 1px;
   border-top-right-radius: 50px;
   border-top-left-radius: 90px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 90px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   transition: transform 0.3s ease;
   position: relative;
   z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 138px;
+  min-width: 120px;
 }
 
 .n4 {
@@ -163,7 +163,7 @@ body {
   text-decoration: none;
   /* padding: 20px 35px;
     border-radius: 70% / 50%; */
-  padding: 55px 21px;
+  padding: 50px 15px;
   border-top-right-radius: 50px;
   border-top-left-radius: 90px;
   border-bottom-left-radius: 50px;
@@ -176,7 +176,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 130px;
+  min-width: 120px;
 }
 
 .n5 {
@@ -187,7 +187,7 @@ body {
   text-decoration: none;
   /* padding: 20px 35px;
     border-radius: 70% / 50%; */
-  padding: 55px 40px;
+  padding: 50px 34px;
   border-top-right-radius: 50px;
   border-top-left-radius: 90px;
   border-bottom-left-radius: 50px;
@@ -200,7 +200,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 130px;
+  max-width: 122px;
 }
 
 /* Hamburger menyu */
