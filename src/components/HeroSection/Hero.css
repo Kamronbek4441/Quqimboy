@@ -4,10 +4,11 @@
   width: 100%;
   /* max-width: 700px; */
   /* height: 400px; */
-  overflow: hidden;
+  overflow-x: hidden;
   margin: 0 auto;
   /* border-radius: 15px;     */
   z-index: 0;
+  /* display: none; */
 }
 
 .slider-track {
@@ -74,6 +75,12 @@
   font-size: 50px;
   font-weight: lighter;
   color: #333;
+}
+
+.phone > span > a {
+  text-decoration: none;
+  color: #444;
+  font-weight: lighter;
 }
 
 .phone > img {

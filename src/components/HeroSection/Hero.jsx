@@ -68,11 +68,11 @@ function Hero() {
         <div className="top-contacts">
           <div className="phone">
             <img src={phoneIcon} alt="Phone" />
-            <span>(+998 99) 695 00 20</span>
+            <span><a href="tel:+998996950020">(+998 99) 695 00 20</a></span>
           </div>
           <div className="phone">
             <img src={phoneIcon} alt="Phone" />
-            <span>(+998 94) 156 56 56</span>
+            <span><a href="tel:+998941565656">(+998 94) 156 56 56</a></span>
           </div>
         </div>
 
