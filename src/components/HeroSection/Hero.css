@@ -323,7 +323,7 @@
     padding: 10px;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 800px;
   }
 
   .product-item {
@@ -412,6 +412,10 @@
 
   .info-block {
     max-width: 100%;
+  }
+
+  .product-section {
+    min-height: 800px;
   }
 }
 

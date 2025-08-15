@@ -86,9 +86,9 @@ const Contact = () => {
               style={{
                 marginTop: "9px",
               }}
-              href="mailto:info@QuqumboyParranda.uz"
+              href=""
             >
-              info@QuqumboyParranda.uz
+              doniyor_6@mail.ru
             </a>
           </div>
         </div>
