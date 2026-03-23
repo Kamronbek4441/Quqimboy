@@ -70,7 +70,7 @@ const Contact = () => {
           </div>
           <div className="contact-card">
             <h3>{t("phone")}</h3>
-            <a href="tel:+998953070020">+998 95 307 00 20</a>
+            <a href="tel:+998953070020">+998 99 695 00 20</a>
             <a href="tel:+998941565656">+998 94 156 56 56</a>
           </div>
           <div className="contact-card">
